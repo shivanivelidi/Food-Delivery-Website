@@ -1,0 +1,323 @@
+/* Responsive */
+
+/*Navigation*/
+#home{
+
+}
+#home .h-primary{
+   
+}
+/*Services section*/
+
+@media only screen and (max-width:752px){
+#services{
+   
+      flex-direction: column;  
+    
+    /* media="screen and (max-width: 914px)" */
+}
+}
+
+#services .box{
+   
+}
+
+
+/*Client Section*/
+#clients{
+    overflow: hidden;
+}
+/* Contact section*/
+
+/*footer section*/
+
+
+
+/*Tablet*/
+@media only screen and  (max-width:772px){
+    /*Navigation Bar*/
+#navbar{
+    height:65%;
+}
+#navbar ul li{
+    list-style:none;
+    font-size:0.9rem;
+}
+#logo img{
+    margin:3px 7px;
+    width: 39px;
+    height: 39px;
+    padding-left:3px;
+    padding-top:3px;
+
+}
+    /*Home*/
+    #home h1{
+        font-size:2.5rem ;
+    }
+    #home p{
+        font-size: 0.9rem;
+    }
+  #home{
+    margin-top: -75px;
+    
+  }
+   /*Services*/
+   .services-container{
+    margin-top: -190px;
+    margin-bottom: 16px;
+    background-color:#c6b2b2;
+    padding-bottom: 1px;
+}
+.services-container h1{
+    font-size: 2.8rem;
+}
+#services .box h2{
+    font-size: 1.3rem;
+}
+#services .box p{
+    font-size: 0.8rem;
+}
+/*Clients*/
+#client-section h1{
+    font-size: 2.8rem;
+}
+#clients img{
+    /* display:block; */
+    height:90px;
+}
+.client-item{
+    /* display:block; */
+    padding:34px;
+}
+
+/*Contact us*/
+#contact h1{
+    font-size: 2.8rem;
+}
+#contact{
+    margin-top: 9px;
+    height:25%;
+    width:100%;
+}
+#contact-box input, #contact-box textarea{
+    /* width:100%;
+    padding:0.5rem;
+    border-radius:9px; */
+    font-size: 0.1rem;
+    
+    }
+    #contact-box label{
+        font-size: 0.9rem;
+    }
+    #message{
+        height:10%;
+        width:40%;
+    }
+
+
+}
+/*COMPUTER*/
+ @media only screen and (max-width:1024px){
+    #home h1{
+        font-size:2.5rem ;
+    }
+    #home p{
+        font-size: 0.9rem;
+    }
+  #home{
+    margin-top: -75px;
+
+  }
+   /*Services*/
+   .services-container{
+    margin-top: -190px;
+    margin-bottom: 16px;
+    background-color:#c6b2b2;
+    padding-bottom: 1px;
+}
+ }
+/*Random*/
+ @media only screen and (max-width:750px)
+ {
+    #home h1{
+        font-size:2.0rem ;
+    }
+    #home p{
+        font-size: 0.8rem;
+    }
+  #home{
+    margin-top: -75px;
+
+  } 
+ }
+ @media only screen and (max-width:680px)
+ {
+    #home h1{
+        font-size:1.9rem ;
+    }
+    #home p{
+        font-size: 0.7rem;
+    }
+  /* #home{
+    margin-top: -75px;
+
+  }    */
+  #clients img{
+    /* display:block; */
+    height:70px;
+}
+ }
+ @media only screen and (max-width:670px){
+    #home h1{
+        font-size:1.7rem ;
+    }
+    #home p{
+        font-size: 0.6rem;
+    }
+ }
+ @media only screen and (max-width:640px){
+    #home h1{
+        font-size:1.6rem ;
+    }
+    #home p{
+        font-size: 0.4rem;
+    }
+ }
+ @media only screen and (max-width:510px)
+ {
+    .btn{
+        padding:3px 10px;
+        padding-bottom:6px;
+        border:1px solid white;
+        background-color: brown;
+        color:white;
+        margin:14px 14px;
+        font-size: 0.8rem;
+        border-radius: 4px;
+    }
+    @media only screen and (max-width:394px)
+    {
+        #navbar{
+            height:45%;
+        }
+        #navbar ul li{
+            list-style:none;
+            font-size:0.5rem;
+        }
+        #logo img{
+            margin:1px 5px;
+            width: 28px;
+            height: 28px;
+            padding-left:3px;
+            padding-top:3px;
+        
+        }
+        #navbar ul li a{
+            color:white;
+            display:block;
+            padding:3px 16px;
+            border-radius:20px;
+            text-decoration: none;
+        }
+        
+    }
+
+ }
+ @media only screen and (max-width:333px)
+ {
+    #navbar ul li a{
+        color:white;
+        display:block;
+        padding:3px 9px;
+        border-radius:20px;
+        text-decoration: none;
+    }
+ }
+/*Mobile Landscape*/
+ @media only screen and (max-width:457px){
+    /*home*/
+    #home{
+        padding:0px 60px;
+    }
+    #home h1{
+        font-size:1.6rem ;
+    }
+    #home p{
+        font-size: 0.4rem;
+    } 
+    .btn{
+        padding:1px 8px;
+        padding-bottom:5px;
+        border:1px solid white;
+        background-color: brown;
+        color:white;
+        margin:8px 8px;
+        font-size: 0.6rem;
+        border-radius: 4px;
+    }
+    /*Navigation Bar*/
+#navbar{
+    height:45%;
+}
+#navbar ul li{
+    list-style:none;
+    font-size:0.5rem;
+}
+#logo img{
+    margin:1px 5px;
+    width: 28px;
+    height: 28px;
+    padding-left:3px;
+    padding-top:3px;
+
+}
+ /*Services*/
+ 
+ .services-container h1{
+    font-size: 2.0rem;
+}
+#services .box h2{
+    font-size: 1.0rem;
+}
+#services .box p{
+    font-size: 0.7rem;
+}
+
+#clients img{
+    /* display:block; */
+    height:60px;
+}
+footer{
+    font-size: 0.9rem;
+}
+
+
+ }
+ /*mobile*/
+ @media only screen and (max-width:300px)
+ {
+    #navbar ul li a{
+        color:white;
+        display:block;
+        padding:3px 6px;
+        border-radius:20px;
+        text-decoration: none;
+    }
+    #clients-container h2{
+        font-size: 1.3rem;
+    }
+    #clients img{
+        /* display:block; */
+        height:40px;
+       
+    }
+    #client-section h1{
+        font-size: 1.8rem;
+    }
+   
+    .client-item{
+        /* display:block; */
+        padding:8px;
+    }
+ }
